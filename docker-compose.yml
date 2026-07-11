@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+
+  react:
+
+    build: .
+
+    container_name: react_users
+
+    ports:
+        - "3000:80"
+      
